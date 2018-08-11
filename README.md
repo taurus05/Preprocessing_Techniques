@@ -12,7 +12,7 @@ Hence, missing values should be handled very carefully. Missing values are handl
   * If the data values for a particular feature are continuous, then missing value can be substituted with the mean of the         values along that column
   * If the data values for a particular feature are discrete, i.e. it has value from a specific set of values, then using the       most frequently occouring value can be used to substitute the missing values.
   * If the data values obey gaussian distribution, then we can substitute it with the median of the values along that column.
-1. Machine Learning model based missing value Imputation
+2. Machine Learning model based missing value Imputation
     This is amongst the most emerging areas. The most important aspect of this approach is that, without even running a ML         model predictions for missing values can be made. It lies at the intersection of supervised and unsupervised Approach.
     Major steps involved in this approach are :
     1. Seperation of tuples (row) values in dataset, on the basis of complete or incomplete.
